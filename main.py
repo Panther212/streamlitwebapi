@@ -97,7 +97,7 @@ if a == "Farm Information":
  st.line_chart(Filtered_data,use_container_width=True)
 
  st.write(df)
- st.subheader(scan)
+ st.write("Scan number is",scan)
 
 
  # st.write(result)
